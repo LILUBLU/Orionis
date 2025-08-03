@@ -52,3 +52,4 @@ if(!in_array($cronjobID, $cronjobsTodo))
 }
 
 Cronjob::execute($cronjobID);
+include('event_create_npc.php');
